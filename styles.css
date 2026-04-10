@@ -914,6 +914,33 @@ body.theme-storybook .store-card.highlight {
 }
 
 @media (max-width: 620px) {
+  .touch-controls {
+    inset: auto 0.5rem 0.5rem 0.5rem;
+    gap: 0.45rem;
+  }
+
+  .touch-pad {
+    grid-template-columns: repeat(3, 44px);
+    grid-template-rows: repeat(3, 44px);
+    gap: 0.28rem;
+  }
+
+  .touch-btn {
+    min-height: 38px;
+    border-radius: 10px;
+    font-size: 0.78rem;
+  }
+
+  .touch-actions {
+    grid-template-columns: 1fr;
+    width: min(118px, 32vw);
+    gap: 0.28rem;
+  }
+
+  .demo-canvas-wrap {
+    padding-bottom: 7.1rem;
+  }
+
   .theme-switch {
     width: 100%;
   }
@@ -941,11 +968,3 @@ body.theme-storybook .store-card.highlight {
     justify-content: center;
   }
 }
-
-
-
-
-
-
-
-
