@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --font-ui: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", "Segoe UI", sans-serif;
   --font-title: "Microsoft YaHei UI", "PingFang SC", "Source Han Sans SC", sans-serif;
   --ink: #e8f0f2;
@@ -887,10 +887,14 @@ body.theme-storybook .store-card.highlight {
     padding-top: 1.8rem;
   }
 
+  .hero-copy {
+    order: 1;
+  }
+
   .hero-art {
-    order: -1;
+    order: 2;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0.9rem auto 0;
   }
 
   .demo-shell {
@@ -937,6 +941,7 @@ body.theme-storybook .store-card.highlight {
     justify-content: center;
   }
 }
+
 
 
 
