@@ -989,3 +989,53 @@ body.theme-storybook .store-card.highlight {
 
 
 
+
+@media (max-width: 620px) {
+  .touch-controls {
+    inset: auto 0.5rem calc(0.4rem + env(safe-area-inset-bottom)) 0.5rem;
+    gap: 0.45rem;
+  }
+
+  .demo-canvas-wrap {
+    padding-bottom: 11rem;
+  }
+
+  .demo-hud {
+    padding: 1rem 0.95rem 1.1rem;
+  }
+
+  .demo-hud h3 {
+    margin-bottom: 0.55rem;
+    font-size: 1.05rem;
+  }
+
+  .demo-stats p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .demo-objective {
+    min-height: auto;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0.6rem 0;
+  }
+
+  .objective-list {
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  .objective-list li + li {
+    margin-top: 0.25rem;
+  }
+
+  .demo-controls {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .demo-controls li + li {
+    margin-top: 0.2rem;
+  }
+}
