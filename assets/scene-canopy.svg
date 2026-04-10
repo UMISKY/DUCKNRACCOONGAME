@@ -1,0 +1,23 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F7F66"/>
+      <stop offset="1" stop-color="#1D3128"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <ellipse cx="330" cy="138" rx="250" ry="128" fill="#6FA878"/>
+  <ellipse cx="930" cy="112" rx="290" ry="138" fill="#62986B"/>
+
+  <rect x="0" y="556" width="1280" height="164" fill="#203729"/>
+
+  <rect x="250" y="190" width="64" height="460" fill="#6B4A30"/>
+  <rect x="970" y="160" width="64" height="490" fill="#6B4A30"/>
+  <rect x="520" y="220" width="58" height="430" fill="#6B4A30"/>
+
+  <rect x="304" y="284" width="666" height="34" rx="14" fill="#C99C65"/>
+  <rect x="304" y="334" width="666" height="34" rx="14" fill="#C99C65"/>
+  <rect x="304" y="384" width="666" height="34" rx="14" fill="#C99C65"/>
+
+  <text x="70" y="670" fill="#DBF3DF" font-family="Segoe UI, Microsoft YaHei" font-size="32">Canopy Bridge Route | 树冠高桥路线</text>
+</svg>

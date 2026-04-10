@@ -1,0 +1,46 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E3E2F"/>
+      <stop offset="1" stop-color="#1D2A1F"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="676" y1="120" x2="676" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8E603A"/>
+      <stop offset="1" stop-color="#5D3B24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect y="618" width="1280" height="102" fill="#243A2B"/>
+
+  <ellipse cx="676" cy="402" rx="156" ry="292" fill="url(#trunk)"/>
+  <ellipse cx="676" cy="92" rx="316" ry="138" fill="#4E7A54" opacity="0.95"/>
+
+  <g transform="translate(676 392)">
+    <ellipse cx="0" cy="116" rx="122" ry="40" fill="#121A14" opacity="0.45"/>
+
+    <g transform="translate(0 -12)">
+      <ellipse cx="0" cy="30" rx="90" ry="98" fill="#86847D"/>
+      <ellipse cx="0" cy="40" rx="54" ry="63" fill="#E7DDCD"/>
+      <circle cx="-48" cy="-28" r="31" fill="#75736C"/>
+      <circle cx="48" cy="-28" r="31" fill="#75736C"/>
+      <path d="M-40 -4C-24 -18 -7 -24 0 -24C7 -24 24 -18 40 -4C40 19 19 36 0 36C-19 36 -40 19 -40 -4Z" fill="#4D5452"/>
+      <ellipse cx="-20" cy="-1" rx="11" ry="13" fill="#272D2B"/>
+      <ellipse cx="20" cy="-1" rx="11" ry="13" fill="#272D2B"/>
+      <path d="M66 20C85 33 86 49 68 63" stroke="#6F6E67" stroke-width="8" stroke-linecap="round"/>
+      <path d="M69 27C81 35 81 46 71 55" stroke="#E7DDCC" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(0 -90)">
+      <ellipse cx="0" cy="0" rx="67" ry="52" fill="#E4C561"/>
+      <ellipse cx="-16" cy="-10" rx="14" ry="17" fill="#292922"/>
+      <ellipse cx="16" cy="-10" rx="14" ry="17" fill="#292922"/>
+      <path d="M-20 -4C-10 -12 7 -12 20 -4C16 6 8 14 0 16C-8 14 -16 6 -20 -4Z" fill="#D68751"/>
+      <path d="M-66 -2C-102 -8 -126 7 -126 22C-126 36 -102 49 -66 44" fill="#D68751"/>
+      <path d="M66 -2C102 -8 126 7 126 22C126 36 102 49 66 44" fill="#D68751"/>
+    </g>
+  </g>
+
+  <rect x="70" y="42" width="438" height="86" rx="14" fill="#0F1711" stroke="#85B38C"/>
+  <text x="96" y="94" fill="#C0E0C7" font-family="Segoe UI, Microsoft YaHei" font-size="34" font-weight="700">CLIMB SHORTCUT ROUTE</text>
+  <text x="70" y="672" fill="#D4E9D8" font-family="Segoe UI, Microsoft YaHei" font-size="30">Rook carries Pip and climbs giant roots to flank enemy camps.</text>
+</svg>

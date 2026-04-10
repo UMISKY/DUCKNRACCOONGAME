@@ -1,0 +1,52 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D4457"/>
+      <stop offset="1" stop-color="#152533"/>
+    </linearGradient>
+    <linearGradient id="water" x1="640" y1="286" x2="640" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B95A8"/>
+      <stop offset="1" stop-color="#2A5A73"/>
+    </linearGradient>
+    <linearGradient id="duckBack" x1="600" y1="360" x2="600" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4DA78"/>
+      <stop offset="1" stop-color="#D3B04E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect y="286" width="1280" height="334" fill="url(#water)"/>
+  <rect y="620" width="1280" height="100" fill="#214238"/>
+
+  <g stroke="#8ED4E6" stroke-width="4" opacity="0.55">
+    <path d="M0 340C120 316 220 356 340 340C480 318 578 356 712 340C840 324 950 357 1080 340C1170 329 1230 338 1280 346"/>
+    <path d="M0 430C120 406 220 446 340 430C480 408 578 446 712 430C840 414 950 447 1080 430C1170 419 1230 428 1280 436"/>
+    <path d="M0 512C120 488 220 528 340 512C480 490 578 528 712 512C840 496 950 529 1080 512C1170 501 1230 510 1280 518"/>
+  </g>
+
+  <g transform="translate(602 432)">
+    <ellipse cx="0" cy="86" rx="206" ry="52" fill="#143A46" opacity="0.75"/>
+
+    <ellipse cx="0" cy="30" rx="198" ry="74" fill="url(#duckBack)"/>
+    <ellipse cx="-8" cy="8" rx="120" ry="54" fill="#F6E38E"/>
+    <ellipse cx="56" cy="8" rx="76" ry="42" fill="#F0D66D"/>
+
+    <path d="M-196 30C-250 20 -286 44 -286 68C-286 95 -248 118 -196 106" fill="#DE955C"/>
+    <path d="M196 30C250 20 286 44 286 68C286 95 248 118 196 106" fill="#DE955C"/>
+
+    <g transform="translate(0 -46)">
+      <ellipse cx="0" cy="0" rx="64" ry="78" fill="#8A8881"/>
+      <ellipse cx="0" cy="8" rx="37" ry="47" fill="#E9DFD0"/>
+      <path d="M-42 -10C-28 -24 -10 -30 0 -30C10 -30 28 -24 42 -10C42 18 20 38 0 38C-20 38 -42 18 -42 -10Z" fill="#4D5452"/>
+      <ellipse cx="-19" cy="-6" rx="11" ry="13" fill="#252A29"/>
+      <ellipse cx="19" cy="-6" rx="11" ry="13" fill="#252A29"/>
+      <path d="M52 16C70 28 70 44 54 57" stroke="#6F6E67" stroke-width="8" stroke-linecap="round"/>
+      <path d="M55 23C66 31 66 42 57 50" stroke="#E7DDCC" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <path d="M-30 -10C-14 -19 10 -19 28 -10C24 2 13 12 -1 16C-15 12 -26 2 -30 -10Z" fill="#E19155"/>
+  </g>
+
+  <rect x="72" y="48" width="400" height="86" rx="14" fill="#0D1822" stroke="#71AFC0"/>
+  <text x="98" y="98" fill="#AFDDE7" font-family="Segoe UI, Microsoft YaHei" font-size="34" font-weight="700">RIVER FERRY PHASE</text>
+  <text x="72" y="674" fill="#C9E8F3" font-family="Segoe UI, Microsoft YaHei" font-size="30">Pip ferries Rook through rapid channels to reach relic islands.</text>
+</svg>

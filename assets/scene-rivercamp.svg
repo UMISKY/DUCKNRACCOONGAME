@@ -1,0 +1,27 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B8FA8"/>
+      <stop offset="1" stop-color="#2D4A5B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect y="420" width="1280" height="300" fill="#2E5E4E"/>
+  <path d="M0 474C170 452 300 468 450 492C620 520 760 500 910 474C1040 450 1160 462 1280 488V720H0V474Z" fill="#1E463A"/>
+
+  <rect x="178" y="298" width="300" height="138" rx="18" fill="#C89D68"/>
+  <polygon points="158,308 328,218 500,308" fill="#8E5A3A"/>
+  <rect x="230" y="334" width="74" height="46" fill="#7DB8B5"/>
+  <rect x="342" y="334" width="74" height="46" fill="#7DB8B5"/>
+
+  <circle cx="678" cy="456" r="66" fill="#E39C5F"/>
+  <circle cx="678" cy="456" r="42" fill="#F6D58E"/>
+
+  <g fill="#7EA881">
+    <ellipse cx="860" cy="438" rx="92" ry="62"/>
+    <ellipse cx="934" cy="450" rx="72" ry="54"/>
+    <ellipse cx="804" cy="462" rx="70" ry="52"/>
+  </g>
+
+  <text x="70" y="670" fill="#D8F0E6" font-family="Segoe UI, Microsoft YaHei" font-size="32">Riverside Camp | 河岸营地</text>
+</svg>

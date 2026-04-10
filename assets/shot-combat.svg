@@ -1,0 +1,60 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#223A4F"/>
+      <stop offset="1" stop-color="#12202E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(958 160) rotate(90) scale(220)">
+      <stop stop-color="#4FE0C6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#4FE0C6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect y="480" width="1280" height="240" fill="#233A31"/>
+  <ellipse cx="958" cy="160" rx="220" ry="180" fill="url(#glow)"/>
+
+  <g opacity="0.55" stroke="#385768" stroke-width="2">
+    <path d="M0 120H1280"/><path d="M0 240H1280"/><path d="M0 360H1280"/><path d="M0 480H1280"/>
+    <path d="M120 0V720"/><path d="M240 0V720"/><path d="M360 0V720"/><path d="M480 0V720"/>
+    <path d="M600 0V720"/><path d="M720 0V720"/><path d="M840 0V720"/><path d="M960 0V720"/><path d="M1080 0V720"/>
+  </g>
+
+  <rect x="70" y="40" width="340" height="86" rx="14" fill="#0C1520" stroke="#5A829C"/>
+  <text x="96" y="90" fill="#9ED7F2" font-family="Segoe UI, Microsoft YaHei" font-size="34" font-weight="700">COMBAT MODE</text>
+
+  <g transform="translate(354 360)">
+    <ellipse cx="0" cy="130" rx="122" ry="42" fill="#0F171D" opacity="0.5"/>
+    <ellipse cx="0" cy="20" rx="94" ry="102" fill="#8B8A84"/>
+    <ellipse cx="0" cy="34" rx="56" ry="68" fill="#E8DECF"/>
+    <circle cx="-50" cy="-56" r="34" fill="#7D7B74"/>
+    <circle cx="50" cy="-56" r="34" fill="#7D7B74"/>
+    <path d="M-44 -5C-26 -23 -3 -30 0 -30C3 -30 26 -23 44 -5C44 24 22 44 0 44C-22 44 -44 24 -44 -5Z" fill="#4C5452"/>
+    <ellipse cx="-23" cy="-6" rx="14" ry="16" fill="#232B2A"/>
+    <ellipse cx="23" cy="-6" rx="14" ry="16" fill="#232B2A"/>
+    <path d="M88 40C116 57 118 84 92 106" stroke="#6F6E67" stroke-width="12" stroke-linecap="round"/>
+    <path d="M94 54C112 65 112 82 96 95" stroke="#E7DDCC" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 66C108 72 108 80 101 86" stroke="#6F6E67" stroke-width="4" stroke-linecap="round"/>
+    <rect x="72" y="-16" width="126" height="16" rx="8" fill="#4FE0C6" transform="rotate(-22 72 -16)"/>
+    <path d="M146 -58L228 -156" stroke="#58C7F2" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(860 412)">
+    <ellipse cx="0" cy="112" rx="128" ry="44" fill="#0B151A" opacity="0.5"/>
+    <ellipse cx="0" cy="18" rx="98" ry="74" fill="#7A463E"/>
+    <circle cx="-34" cy="-4" r="15" fill="#241D1C"/>
+    <circle cx="34" cy="-4" r="15" fill="#241D1C"/>
+    <path d="M-70 80L-130 145" stroke="#E57E67" stroke-width="18" stroke-linecap="round"/>
+    <path d="M70 80L130 145" stroke="#E57E67" stroke-width="18" stroke-linecap="round"/>
+    <rect x="-72" y="-110" width="144" height="20" rx="10" fill="#35181C"/>
+    <rect x="-72" y="-110" width="96" height="20" rx="10" fill="#E26D74"/>
+  </g>
+
+  <g transform="translate(628 300)">
+    <ellipse cx="0" cy="52" rx="36" ry="30" fill="#E7C863"/>
+    <path d="M-36 52C-56 48 -68 58 -68 68C-68 80 -56 89 -36 84" fill="#E5A367"/>
+    <path d="M36 52C56 48 68 58 68 68C68 80 56 89 36 84" fill="#E5A367"/>
+    <path d="M-18 46C-7 41 8 41 18 46C15 55 8 62 0 62C-8 62 -15 55 -18 46Z" fill="#E39358"/>
+  </g>
+
+  <text x="70" y="648" fill="#C6DFEA" font-family="Segoe UI, Microsoft YaHei" font-size="30">Rook engages swamp raider while Pip marks weak points.</text>
+</svg>

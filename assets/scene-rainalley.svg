@@ -1,0 +1,30 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#374464"/>
+      <stop offset="1" stop-color="#1C2236"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect y="470" width="1280" height="250" fill="#28334A"/>
+  <g fill="#536B8A">
+    <rect x="120" y="216" width="160" height="254"/>
+    <rect x="300" y="176" width="180" height="294"/>
+    <rect x="514" y="226" width="170" height="244"/>
+    <rect x="710" y="160" width="220" height="310"/>
+    <rect x="962" y="200" width="186" height="270"/>
+  </g>
+  <g fill="#A6E6E0" opacity="0.8">
+    <rect x="178" y="278" width="42" height="42"/>
+    <rect x="352" y="236" width="48" height="48"/>
+    <rect x="580" y="288" width="40" height="40"/>
+    <rect x="786" y="248" width="52" height="52"/>
+    <rect x="1030" y="260" width="44" height="44"/>
+  </g>
+  <g stroke="#8BB0D6" stroke-width="3" opacity="0.5">
+    <path d="M0 102L1280 182"/>
+    <path d="M0 170L1280 250"/>
+    <path d="M0 238L1280 318"/>
+  </g>
+  <text x="70" y="670" fill="#DDE8F8" font-family="Segoe UI, Microsoft YaHei" font-size="32">Rain Alley Town | 雨夜古镇</text>
+</svg>

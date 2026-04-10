@@ -1,0 +1,42 @@
+﻿<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 210) rotate(90) scale(380)">
+      <stop stop-color="#F4D08A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F4D08A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="600" y1="60" x2="600" y2="1160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CFE7DF"/>
+      <stop offset="1" stop-color="#EFE2C7"/>
+    </linearGradient>
+    <linearGradient id="water" x1="600" y1="660" x2="600" y2="1160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#84B4B7" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#5A8B93" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#sky)"/>
+  <ellipse cx="900" cy="220" rx="330" ry="280" fill="url(#g1)"/>
+
+  <path d="M0 650C145 590 271 570 411 608C582 654 689 636 807 600C952 554 1090 571 1200 630V1200H0V650Z" fill="#9FC1A4"/>
+  <path d="M0 730C150 690 286 697 430 733C583 771 700 740 840 708C986 673 1097 694 1200 742V1200H0V730Z" fill="url(#water)"/>
+
+  <g opacity="0.6">
+    <path d="M120 790C200 760 270 760 350 790" stroke="#E6F4EE" stroke-width="10" stroke-linecap="round"/>
+    <path d="M460 860C530 836 596 836 664 860" stroke="#D7EDF0" stroke-width="10" stroke-linecap="round"/>
+    <path d="M760 808C836 780 908 780 980 808" stroke="#E7F4F6" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#6B8F72" opacity="0.72">
+    <ellipse cx="180" cy="680" rx="35" ry="105"/>
+    <ellipse cx="212" cy="690" rx="27" ry="98"/>
+    <ellipse cx="1010" cy="702" rx="36" ry="112"/>
+    <ellipse cx="1044" cy="708" rx="27" ry="94"/>
+    <ellipse cx="920" cy="730" rx="22" ry="72"/>
+  </g>
+
+  <g fill="#F4E6A4" opacity="0.6">
+    <circle cx="330" cy="700" r="14"/>
+    <circle cx="692" cy="760" r="11"/>
+    <circle cx="858" cy="705" r="13"/>
+  </g>
+</svg>

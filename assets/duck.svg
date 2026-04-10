@@ -1,0 +1,36 @@
+﻿<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="duckbody" x1="320" y1="112" x2="320" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E58A"/>
+      <stop offset="1" stop-color="#E9C963"/>
+    </linearGradient>
+    <linearGradient id="beak" x1="320" y1="270" x2="320" y2="334" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1AB67"/>
+      <stop offset="1" stop-color="#DA874C"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="324" cy="372" rx="172" ry="168" fill="url(#duckbody)"/>
+  <circle cx="330" cy="248" r="120" fill="url(#duckbody)"/>
+
+  <ellipse cx="272" cy="238" rx="24" ry="31" fill="#2C2D27"/>
+  <circle cx="280" cy="228" r="7" fill="#FFFFFF"/>
+  <ellipse cx="390" cy="237" rx="24" ry="31" fill="#2C2D27"/>
+  <circle cx="398" cy="227" r="7" fill="#FFFFFF"/>
+
+  <path d="M266 286C292 275 318 272 332 272C346 272 372 275 398 286C393 319 364 334 332 334C300 334 271 319 266 286Z" fill="url(#beak)"/>
+  <path d="M274 300C292 309 313 313 332 313C351 313 372 309 390 300" stroke="#C2713F" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M258 356C279 373 309 382 330 382C351 382 381 373 402 356" stroke="#4A4A3D" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M206 318C160 316 130 335 130 361C130 388 160 406 206 404" fill="#EFA15F"/>
+  <path d="M454 317C503 313 536 333 536 359C536 386 501 407 454 403" fill="#EFA15F"/>
+
+  <path d="M252 396C267 432 297 460 325 468C354 460 384 432 399 396" fill="#D79B49" opacity="0.72"/>
+
+  <ellipse cx="278" cy="326" rx="20" ry="11" fill="#E8B17D" opacity="0.52"/>
+  <ellipse cx="387" cy="325" rx="20" ry="11" fill="#E8B17D" opacity="0.52"/>
+
+  <path d="M302 500C308 540 297 569 264 589" stroke="#B67844" stroke-width="14" stroke-linecap="round"/>
+  <path d="M348 500C342 540 353 569 386 589" stroke="#B67844" stroke-width="14" stroke-linecap="round"/>
+</svg>

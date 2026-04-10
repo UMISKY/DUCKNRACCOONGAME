@@ -1,0 +1,32 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3E5A7B"/>
+      <stop offset="1" stop-color="#1A2638"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 140) rotate(90) scale(160)">
+      <stop stop-color="#FFE6AF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFE6AF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <ellipse cx="1020" cy="140" rx="160" ry="130" fill="url(#moon)"/>
+  <rect y="482" width="1280" height="238" fill="#27344A"/>
+  <path d="M0 530C180 500 310 520 460 548C630 580 760 554 910 528C1040 505 1160 518 1280 544V720H0V530Z" fill="#1B2B3F"/>
+
+  <g transform="translate(780 208)">
+    <rect x="0" y="40" width="120" height="270" fill="#DCC8A3"/>
+    <rect x="26" y="0" width="68" height="80" fill="#C9B18A"/>
+    <rect x="42" y="18" width="36" height="36" fill="#6ED7D0"/>
+    <rect x="34" y="120" width="52" height="24" fill="#8CA2BD"/>
+    <rect x="34" y="182" width="52" height="24" fill="#8CA2BD"/>
+  </g>
+
+  <g stroke="#8FD8DF" stroke-width="4" opacity="0.6">
+    <path d="M120 620C220 598 310 598 410 620"/>
+    <path d="M440 642C530 620 606 620 700 642"/>
+    <path d="M760 622C848 600 926 600 1020 622"/>
+  </g>
+
+  <text x="70" y="670" fill="#D5E6F0" font-family="Segoe UI, Microsoft YaHei" font-size="32">Moonwatch Lighthouse Ruins | 月望灯塔遗迹</text>
+</svg>

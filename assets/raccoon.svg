@@ -1,0 +1,40 @@
+﻿<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fur" x1="320" y1="78" x2="320" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8A69E"/>
+      <stop offset="1" stop-color="#77766F"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="320" cy="356" rx="184" ry="198" fill="url(#fur)"/>
+  <ellipse cx="320" cy="364" rx="112" ry="132" fill="#EEE7D9"/>
+
+  <circle cx="228" cy="206" r="66" fill="#88867F"/>
+  <circle cx="412" cy="206" r="66" fill="#88867F"/>
+  <circle cx="228" cy="206" r="30" fill="#E8DEC9"/>
+  <circle cx="412" cy="206" r="30" fill="#E8DEC9"/>
+
+  <path d="M238 268C263 247 292 238 320 238C348 238 377 247 402 268C402 307 371 338 320 338C269 338 238 307 238 268Z" fill="#4D5452"/>
+  <ellipse cx="266" cy="292" rx="29" ry="35" fill="#2A2F2D"/>
+  <ellipse cx="374" cy="292" rx="29" ry="35" fill="#2A2F2D"/>
+  <circle cx="275" cy="282" r="8" fill="#FFFFFF"/>
+  <circle cx="383" cy="281" r="8" fill="#FFFFFF"/>
+
+  <ellipse cx="320" cy="344" rx="38" ry="27" fill="#474D4A"/>
+  <path d="M272 356C291 385 311 397 320 397C329 397 349 385 368 356" stroke="#474D4A" stroke-width="9" stroke-linecap="round"/>
+
+  <ellipse cx="266" cy="353" rx="18" ry="11" fill="#CF8B86" opacity="0.55"/>
+  <ellipse cx="374" cy="353" rx="18" ry="11" fill="#CF8B86" opacity="0.55"/>
+
+  <path d="M198 456C243 512 397 512 442 456" stroke="#E8DECD" stroke-width="16" stroke-linecap="round"/>
+
+  <path d="M490 392C551 429 560 523 505 564" stroke="#6F6E67" stroke-width="30" stroke-linecap="round"/>
+  <path d="M486 398C544 432 548 501 504 537" stroke="#E7DDCC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M512 422C535 435 536 457 516 473" stroke="#6F6E67" stroke-width="9" stroke-linecap="round"/>
+  <path d="M520 452C541 464 542 485 524 500" stroke="#6F6E67" stroke-width="9" stroke-linecap="round"/>
+
+  <g fill="#4B524F" opacity="0.75">
+    <rect x="221" y="263" width="76" height="86" rx="38"/>
+    <rect x="343" y="263" width="76" height="86" rx="38"/>
+  </g>
+</svg>
