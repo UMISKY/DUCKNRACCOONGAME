@@ -723,6 +723,11 @@ body.celebration-on .site-header {
   color: #eaf6ff;
   font: 700 0.9rem/1 var(--font-ui);
   min-height: 44px;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .touch-btn.active {
