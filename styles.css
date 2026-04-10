@@ -914,6 +914,24 @@ body.theme-storybook .store-card.highlight {
 }
 
 @media (max-width: 620px) {
+  .hero {
+    gap: 1rem;
+  }
+
+  .hero-art {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    min-height: 280px;
+    aspect-ratio: 4 / 3;
+    margin: 0.8rem auto 0;
+  }
+
+  .hero-art.reveal {
+    opacity: 1;
+    transform: none;
+  }
+
   .touch-controls {
     inset: auto 0.5rem 0.5rem 0.5rem;
     gap: 0.45rem;
@@ -968,4 +986,5 @@ body.theme-storybook .store-card.highlight {
     justify-content: center;
   }
 }
+
 
