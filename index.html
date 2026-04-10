@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mosslight Trails | 苔光旅途</title>
-  <meta name="description" content="Mosslight Trails: A cozy adventure game about a raccoon and a duck. 苔光旅途：浣熊与鸭子的冒险故事。" />
+  <meta name="description" content="Mosslight Trails: A cozy adventure game about a raccoon and a duck." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="theme-adventure" data-page="home">
@@ -25,28 +25,26 @@
     </div>
   </header>
 
+  <div id="petal-layer" class="petal-layer" aria-hidden="true"></div>
+  <div id="victory-banner" class="victory-banner">Luisa and Sia have been together for 3 months~</div>
+  <nav id="victory-menu" class="victory-menu is-hidden" aria-label="Victory menu">
+    <a href="#top">Home</a>
+    <a href="#story">Story</a>
+    <a href="#showcase">Gameplay Shots</a>
+    <a href="store.html">Store</a>
+  </nav>
+
   <main id="top">
     <section class="hero section">
       <div class="hero-copy reveal">
         <p class="eyebrow">Cozy Co-op Adventure RPG</p>
         <h1>《苔光旅途》<span>Mosslight Trails</span></h1>
-        <p>
-          一只机灵浣熊 + 一只热心小鸭，穿越会发光的沼泽与失落古桥，
-          在温馨冒险中找回「月潮罗盘」。
-          Explore ruins, rescue travelers, and rebuild ancient routes with tactical puzzle choices.
-        </p>
+        <p>一只机灵浣熊和一只热心小鸭，在温馨冒险中一起穿越沼泽、古桥和树冠秘道。</p>
         <div class="cta-row">
           <a href="#demo" class="btn">Play Web Demo</a>
           <a href="store.html#editions" class="btn ghost">View Store</a>
         </div>
-        <ul class="quick-meta">
-          <li>Platform: PC / Switch</li>
-          <li>Genre: Adventure Puzzle RPG</li>
-          <li>Mode: Solo + Buddy Switch</li>
-          <li>Release Window: 2027 (Fictional)</li>
-        </ul>
       </div>
-
       <div class="hero-art reveal">
         <img src="assets/wetland-scene.svg" alt="Wetland scene" class="scene" />
         <img src="assets/raccoon.svg" alt="Raccoon hero" class="char raccoon" />
@@ -59,97 +57,41 @@
 
     <section id="story" class="section story reveal">
       <h2>Story Mission | 故事任务</h2>
-      <p>
-        每十年一次的蓝月夜，潮声谷的月潮罗盘会重新校准四季潮汐。今年它消失了。
-        Luisa Z and Sia Z receive an old distress signal from a broken lighthouse.
-        Their journey turns into a long expedition through flooded rails, ruined observatories, and hidden camps.
-      </p>
-      <div class="chapter-grid">
-        <article>
-          <h3>Act I · Lantern Marsh</h3>
-          <p>点亮灯莲航道，护送商队穿越迷雾水网，开启第一段地图修复链。</p>
-        </article>
-        <article>
-          <h3>Act II · Bridge of Echoes</h3>
-          <p>在回音石桥上触发节奏机关，利用双角色协作穿过塌陷桥段。</p>
-        </article>
-        <article>
-          <h3>Act III · Raincoat Peak</h3>
-          <p>在风暴山脊建立临时营地，完成最终守塔战与罗盘复位。</p>
-        </article>
-      </div>
+      <p>Luisa Z and Sia Z receive a distress signal from a broken lighthouse and begin an expedition through flooded ruins and forgotten camps.</p>
     </section>
 
     <section id="features" class="section features">
       <h2 class="reveal">Gameplay Systems | 核心玩法</h2>
       <div class="feature-grid">
-        <article class="reveal">
-          <img src="assets/icon-paw.svg" alt="paw icon" />
-          <h3>Buddy Combat Utility</h3>
-          <p>浣熊负责攀爬、投掷与机关联动；小鸭负责水路侦查、声波标记与远端触发。</p>
-        </article>
-        <article class="reveal">
-          <img src="assets/icon-feather.svg" alt="feather icon" />
-          <h3>Brushstroke Puzzle Grid</h3>
-          <p>将颜色能量覆盖机关节点，形成“路径链”，实时改变关卡结构。</p>
-        </article>
-        <article class="reveal">
-          <img src="assets/icon-map.svg" alt="map icon" />
-          <h3>Micro Open Regions</h3>
-          <p>每个区域可回访，包含隐藏任务、救援事件、收藏和技能升级材料。</p>
-        </article>
-        <article class="reveal">
-          <img src="assets/icon-fire.svg" alt="fire icon" />
-          <h3>Campfire Narrative</h3>
-          <p>在营地夜谈中选择语气与回应，影响队友关系值与终章演出分支。</p>
-        </article>
+        <article class="reveal"><img src="assets/icon-paw.svg" alt="paw icon" /><h3>Buddy Combat Utility</h3><p>战斗、切换、协作。</p></article>
+        <article class="reveal"><img src="assets/icon-feather.svg" alt="feather icon" /><h3>Route Puzzle</h3><p>水路和树路双线推进。</p></article>
+        <article class="reveal"><img src="assets/icon-map.svg" alt="map icon" /><h3>Micro Regions</h3><p>短流程区域探索。</p></article>
+        <article class="reveal"><img src="assets/icon-fire.svg" alt="fire icon" /><h3>Camp Story</h3><p>营地叙事与关系成长。</p></article>
       </div>
     </section>
 
     <section id="press" class="section press">
       <h2 class="reveal">Press Preview | 假想媒体评测</h2>
       <div class="press-grid">
-        <article class="quote-card reveal">
-          <p>“A surprisingly tactical cozy adventure. Every puddle feels like a puzzle board.”</p>
-          <h3>AdventureWire</h3>
-          <span>9.2 / 10</span>
-        </article>
-        <article class="quote-card reveal">
-          <p>“Luisa Z and Sia Z have elite duo chemistry; every encounter feels handcrafted.”</p>
-          <h3>Pixel Lantern CN</h3>
-          <span>编辑推荐</span>
-        </article>
-        <article class="quote-card reveal">
-          <p>“Its watercolor look is gentle, but mission pacing feels like a real expedition game.”</p>
-          <h3>North Dock Review</h3>
-          <span>4.5 / 5</span>
-        </article>
+        <article class="quote-card reveal"><p>“A surprisingly tactical cozy adventure.”</p><h3>AdventureWire</h3><span>9.2 / 10</span></article>
+        <article class="quote-card reveal"><p>“Luisa and Sia have elite duo chemistry.”</p><h3>Pixel Lantern CN</h3><span>编辑推荐</span></article>
+        <article class="quote-card reveal"><p>“Watercolor warmth with real progression pressure.”</p><h3>North Dock Review</h3><span>4.5 / 5</span></article>
       </div>
     </section>
 
     <section id="showcase" class="section showcase">
       <h2 class="reveal">Gameplay Shots | 实机演示画面</h2>
-      <p class="reveal">关键场景预览：浣熊战斗、小鸭驮浣熊过河、浣熊背鸭子爬树。</p>
+      <p class="reveal">浣熊战斗、小鸭驮浣熊过河、浣熊背鸭子爬树。</p>
       <div class="showcase-grid">
-        <figure class="shot-card reveal">
-          <img src="assets/shot-combat.svg" alt="Raccoon combat encounter" />
-          <figcaption>Combat Encounter | 浣熊与沼泽敌人交战</figcaption>
-        </figure>
-        <figure class="shot-card reveal">
-          <img src="assets/shot-ferry.svg" alt="Duck ferries raccoon across river" />
-          <figcaption>River Crossing | 小鸭驮着浣熊穿越激流</figcaption>
-        </figure>
-        <figure class="shot-card reveal">
-          <img src="assets/shot-climb.svg" alt="Raccoon carries duck and climbs tree" />
-          <figcaption>Tree Climb | 浣熊背鸭子攀上巨树捷径</figcaption>
-        </figure>
+        <figure class="shot-card reveal"><img src="assets/shot-combat.svg" alt="Raccoon combat encounter" /><figcaption>Combat Encounter | 浣熊与森林小怪交战</figcaption></figure>
+        <figure class="shot-card reveal"><img src="assets/shot-ferry.svg" alt="Duck ferries raccoon across river" /><figcaption>River Crossing | 小鸭驮着浣熊穿越激流</figcaption></figure>
+        <figure class="shot-card reveal"><img src="assets/shot-climb.svg" alt="Raccoon carries duck and climbs tree" /><figcaption>Tree Climb | 浣熊背鸭子攀上巨树</figcaption></figure>
       </div>
     </section>
 
     <section id="demo" class="section web-demo">
-      <h2 class="reveal">Web Demo Playtest | 网页版试玩</h2>
-      <p class="reveal">目标：5 分钟左右收集 3 个遗物、击败 4 个敌人并抵达灯塔信标（G）。</p>
-
+      <h2 class="reveal">Luisa-Sia-Z-Advaneture | 网页版试玩</h2>
+      <p class="reveal">目标：约 5 分钟收集 3 个道具、击败 4 个敌人并抵达星形终点。</p>
       <div class="demo-shell reveal">
         <aside class="demo-hud">
           <h3>Mission HUD</h3>
@@ -160,12 +102,20 @@
             <p>Mode <strong id="demo-mode">Ground</strong></p>
             <p>Time <strong id="demo-time">00:00</strong></p>
           </div>
-          <p id="demo-objective" class="demo-objective">探索开始：清理森林小怪（史莱姆/菇灵/野猪），收集遗物并抵达 G。</p>
+          <div class="objective-box">
+            <h4>PRIMARY OBJECTIVE</h4>
+            <p id="demo-objective" class="demo-objective">Objective: 3 relics + 4 kills + star goal.</p>
+            <ul class="objective-list">
+              <li>必经水域：切换 <code>F</code>（Duck Carry）</li>
+              <li>必经树道：切换 <code>Q</code>（Raccoon Carry）</li>
+              <li>背负模式下不可攻击</li>
+            </ul>
+          </div>
           <ul class="demo-controls">
             <li>Move: <code>WASD</code> / <code>Arrow</code></li>
             <li>Attack: <code>Space</code></li>
-            <li>Duck Ferry: <code>F</code> (在码头 D 切换)</li>
-            <li>Carry Duck: <code>Q</code> (进入爬树模式)</li>
+            <li>Duck Carry: <code>F</code></li>
+            <li>Raccoon Carry: <code>Q</code></li>
             <li>Restart: <code>R</code></li>
             <li>Mobile: 触屏方向键 + 右侧动作键</li>
           </ul>
@@ -184,7 +134,7 @@
             </div>
             <div class="touch-actions">
               <button type="button" class="touch-btn action" data-action="attack">Attack</button>
-              <button type="button" class="touch-btn action" data-action="ferry">Ferry</button>
+              <button type="button" class="touch-btn action" data-action="ferry">Duck</button>
               <button type="button" class="touch-btn action" data-action="carry">Carry</button>
               <button type="button" class="touch-btn action" data-action="restart">Restart</button>
             </div>
@@ -197,36 +147,14 @@
       <h2>Meet the Team | 主角档案</h2>
       <div class="character-cards">
         <article>
-          <h3>Luisa Z · 浣熊露伊莎·Z</h3>
-          <p>前邮差学徒，擅长解锁旧机械与地图修复。喜欢捡垃圾、囤垃圾，背包里总有“有一天会用到”的零件。</p>
+          <h3>Luisa Z · 浣熊露伊莎</h3>
+          <p>喜欢捡垃圾、囤垃圾，背包里总有“有一天会用到”的零件。</p>
         </article>
         <article>
-          <h3>Sia Z · 小鸭希娅·Z</h3>
-          <p>航道侦察员，能模仿古钟频率触发机关。最喜欢植物和花，遇到稀有花种会优先做标记再继续冒险。</p>
+          <h3>Sia Z · 小鸭希娅</h3>
+          <p>最喜欢植物和花，遇到稀有花种会优先做标记。</p>
         </article>
       </div>
-    </section>
-
-    <section id="gallery" class="section gallery">
-      <h2 class="reveal">Art Glimpses | 美术预览</h2>
-      <div class="gallery-grid">
-        <figure class="card reveal"><img src="assets/wetland-scene.svg" alt="Lantern marsh" /><figcaption>灯沼水网 Lantern Marsh</figcaption></figure>
-        <figure class="card reveal"><img src="assets/scene-lighthouse.svg" alt="Lighthouse ruins" /><figcaption>月望灯塔遗迹</figcaption></figure>
-        <figure class="card reveal"><img src="assets/scene-rivercamp.svg" alt="Riverside camp" /><figcaption>河岸营地 Riverside Camp</figcaption></figure>
-        <figure class="card reveal"><img src="assets/scene-canopy.svg" alt="Canopy bridge" /><figcaption>树冠高桥 Canopy Bridge</figcaption></figure>
-        <figure class="card reveal"><img src="assets/scene-rainalley.svg" alt="Rain alley town" /><figcaption>雨夜古镇 Rain Alley</figcaption></figure>
-        <figure class="card reveal"><img src="assets/shot-ferry.svg" alt="River ferry gameplay shot" /><figcaption>实机截图：过河阶段</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="section newsletter reveal">
-      <h2>Dev Dispatch | 开发日志订阅</h2>
-      <p>订阅版本更新、曲目试听和章节速览。</p>
-      <form class="subscribe-form">
-        <label for="email" class="sr-only">Email</label>
-        <input id="email" type="email" placeholder="you@example.com" />
-        <button type="submit">Get Updates</button>
-      </form>
     </section>
   </main>
 
@@ -238,10 +166,3 @@
   <script src="demo-game.js"></script>
 </body>
 </html>
-
-
-<!-- update -->
-
-
-
-
