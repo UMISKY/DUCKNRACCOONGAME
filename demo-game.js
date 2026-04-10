@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   const canvas = document.getElementById('demo-canvas');
   if (!canvas) return;
 
@@ -33,7 +33,7 @@
     '#S..###########.....####....##',
     '#..R.....######.###.####.#####',
     '#.#############.###..E##....##',
-    '#.#############.###.####.....#',
+    '#.#############.###.####..G..#',
     '#..#E##########.R##.####.....#',
     '##.#.##########..##...##.....#',
     '##...#######~~~~~~~~~.##.....#',
@@ -43,7 +43,7 @@
     '#..##......######.###.#...####',
     '##.###.#########T.#.......####',
     '#..###.#########T##......#####',
-    '#.####.#########T#..G.##.E####',
+    '#.####.#########T#....##.E####',
     '#.##...######...T..##....#####',
     '#....#........################',
     '##############################'
@@ -490,7 +490,7 @@
     if (ui.overlay) {
       ui.overlay.classList.remove('is-hidden');
       ui.overlay.classList.add('victory');
-      ui.overlay.textContent = `STAGE CLEAR!\nLuisa and Sia have been together for 3 months~\nTime ${formatTime(elapsed)} 路 Press R to replay`;
+      ui.overlay.textContent = `STAGE CLEAR!\nLuisa and Sia have been together for 3 months~\nTime ${formatTime(elapsed)} 璺?Press R to replay`;
     }
     setMessage('Victory! Celebration unlocked.', 99);
     triggerCelebration();
@@ -984,3 +984,4 @@
   resetGame();
   requestAnimationFrame(loop);
 })();
+
